@@ -1,1 +1,2 @@
-# MERN_EXERCISE-
+# Pet Grooming Website
+Build on MERN
