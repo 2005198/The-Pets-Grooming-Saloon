@@ -1,0 +1,30 @@
+{
+  "name": "mern_exercise-",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/2005198/MERN_EXERCISE-#readme",
+  "bugs": {
+    "url": "https://github.com/2005198/MERN_EXERCISE-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2005198/MERN_EXERCISE-.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.4",
+    "multer": "^1.4.5-lts.1"
+  }
+}
