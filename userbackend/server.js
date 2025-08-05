@@ -18,7 +18,7 @@ const __dirname = path.dirname(__filename);
 
 //accessing values from env variable 
 const PORT = process.env.PORT || 5000;
-const URI = process.env.URI;
+const URI = process.env.URI || 'mongodb://localhost:27017/pet-grooming-salon';
 
 //creating express_app 
 const api = express();
